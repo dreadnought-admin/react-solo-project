@@ -1,0 +1,31 @@
+{
+  "name": "phase-2-project",
+  "version": "1.0.0",
+  "description": "a website that searches through manga/anime database provided by jikan.moe API",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 4000",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreadnought-admin/react-solo-project.git"
+  },
+  "author": "dreadnought-admin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreadnought-admin/react-solo-project/issues"
+  },
+  "homepage": "https://github.com/dreadnought-admin/react-solo-project#readme",
+  "dependencies": {
+    "ascii-math": "^2.0.0",
+    "date-fns": "^2.29.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "serve": "^14.1.2",
+    "web-vitals": "^3.1.0"
+  }
+}
